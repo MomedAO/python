@@ -1,5 +1,7 @@
-message = "I love python"
+message = "I love python"  # using variables in string
 print(message)
 
-new_message = f"{message}"
-print(new_message.title())
+message = "i love python world"
+new_message = message.title()
+print(new_message)
+# changing case in a string with tetle()
